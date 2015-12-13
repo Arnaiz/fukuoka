@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>/usr/share/firefox/firefox</execute>
+			</action>
+		</item>
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>x-terminal-emulator</execute>
+			</action>
+		</item>
+		<item label="GVim">
+			<action name="Execute">
+				<execute>gvim</execute>
+			</action>
+		</item>
+		<item label="Mirage">
+			<action name="Execute">
+				<execute>mirage</execute>
+			</action>
+		</item>
+		<item label="Qalculate">
+			<action name="Execute">
+				<execute>qalculate</execute>
+			</action>
+		</item>
+		<item label="Pcmanfm">
+			<action name="Execute">
+				<execute>pcmanfm /home/oscar</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-961148" label="Configure">
+			<item label="obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="tint2">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="alsamixer">
+			<action name="Execute">
+				<execute>alsamixergui</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-711341" label="Session">
+			<item label="Reboot">
+				<action name="Execute">
+					<execute>sudo /sbin/reboot</execute>
+				</action>
+			</item>
+			<item label="Power off">
+				<action name="Execute">
+					<execute>sudo /sbin/poweroff</execute>
+				</action>
+			</item>
+			<item label="Restart">
+				<action name="Restart"/>
+			</item>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+	</menu>
+</openbox_menu>
