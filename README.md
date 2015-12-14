@@ -1,3 +1,10 @@
-# lenovo_X220
-This repository contains configuration files for the Lenovo Thinkpad X220.
-Tested on Debian 8.2
+# fukuoka home files repository
+This repository contains home configuration files at my Lenovo Thinkpad X220 laptop, name fukuoka.
+
+Last functional environment:
+
+uname -a
+Linux fukuoka 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1+deb8u6 (2015-11-09) x86_64 GNU/Linux
+
+cat /etc/debian_version 
+8.2
