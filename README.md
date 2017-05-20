@@ -1,5 +1,7 @@
 # fukuoka home files repository
-This repository contains home configuration files at my Lenovo Thinkpad X220 laptop, name fukuoka.
+This repository contains home configuration files at my Lenovo Thinkpad X220 laptop, hostname name fukuoka.
+
+This host its not working yet since defuncts when my baby sister threw on it a big glass of water.
 
 Last functional environment:
 
