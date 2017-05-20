@@ -10,3 +10,5 @@ Linux fukuoka 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1+deb8u6 (2015-11-09) x8
 
 cat /etc/debian_version 
 8.2
+
+fukuoka host name in honour of https://en.wikipedia.org/wiki/Masanobu_Fukuoka
